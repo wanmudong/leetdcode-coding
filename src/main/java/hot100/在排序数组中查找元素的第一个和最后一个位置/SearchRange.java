@@ -1,8 +1,10 @@
-package hot100;
+package hot100.在排序数组中查找元素的第一个和最后一个位置;
 
 import java.util.Arrays;
 
 /**
+ * 34. 在排序数组中查找元素的第一个和最后一个位置
+ *
  * 给定一个按照升序排列的整数数组 nums，和一个目标值 target。找出给定目标值在数组中的开始位置和结束位置。
  *
  * 如果数组中不存在目标值 target，返回 [-1, -1]。
@@ -52,62 +54,47 @@ public class SearchRange {
     public int[] solution2(int[] nums, int target) {
         int[] targetRange = {-1, -1};
 
-        if (nums.length == 0){
-            return targetRange;
-        }
-
-        int leftIdx = firstIndex(nums, target);
-
-        // assert that `leftIdx` is within the array bounds and that `target`
-        // is actually in `nums`.
-        if ( nums[leftIdx] != target) {
-            return targetRange;
-        }
-
-        targetRange[0] = leftIdx;
+        targetRange[0] = firstIndex(nums, target);
         targetRange[1] = lastIndex(nums, target);
 
         return targetRange;
     }
 
     private int firstIndex(int[] nums, int target) {
-        int lo = 0;
-        int hi = nums.length-1;
+       int left = 0;
+       int right = nums.length-1;
 
-        int res = 0;
-
-        while (lo<= hi)
-        {
-            int mid = (lo+hi)/2;
-            if (nums[mid]>target){
-                hi = mid -1 ;
-            }else if(nums[mid]<target){
-                lo = mid  + 1;
-            }else {
-                res = mid;
-                hi = mid -1;
-            }
-        }
-        return res;
+       while (left<=right){
+           int mid=left+(right-left)/2;
+           if (nums[mid] == target){
+               right = mid-1;
+           }else if (nums[mid]<target){
+               left = mid+1;
+           }else if (nums[mid]>target){
+               right = mid-1;
+           }
+       }
+       if (left >= nums.length || nums[left] != target){
+           return -1;
+       }
+       return left;
     }
     private int lastIndex(int[] nums, int target) {
-        int lo = 0;
-        int hi = nums.length-1;
-
-        int res = 0;
-
-        while (lo<= hi)
-        {
-            int mid = (lo+hi)/2;
-            if (nums[mid]>target){
-                hi = mid-1;
-            }else if(nums[mid]<target){
-                lo = mid  + 1;
-            }else {
-                res = mid;
-                lo = mid +1;
+        int left = 0, right = nums.length - 1;
+        while (left <= right) {
+            int mid = left + (right - left) / 2;
+            if (nums[mid] < target) {
+                left = mid + 1;
+            } else if (nums[mid] > target) {
+                right = mid - 1;
+            } else if (nums[mid] == target) {
+                // 别返回，锁定右侧边界
+                left = mid + 1;
             }
         }
-        return res;
+        // 最后要检查 right 越界的情况
+        if (right < 0 || nums[right] != target)
+            return -1;
+        return right;
     }
 }

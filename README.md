@@ -16,3 +16,4 @@ hot100
 51. N 皇后 https://leetcode-cn.com/problems/n-queens
 111. 二叉树的最小深度 https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
 752. 打开转盘锁 https://leetcode-cn.com/problems/open-the-lock
+704. 二分查找 https://leetcode-cn.com/problems/binary-search/
