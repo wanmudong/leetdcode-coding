@@ -41,8 +41,8 @@ class Solution {
         for (int i = 0; i < n; i++) {
             for (int k = mak_k; k>=1 ; k--) {
                 if (i==0){
-                    dp[0][k][0] = 0;
-                    dp[0][k][1] = Integer.MIN_VALUE;
+                    dp[i][k][0] = 0;
+                    dp[i][k][1] = -prices[i];
                 }else {
                     dp[i][k][0] = Math.max(dp[i - 1][k][0], dp[i - 1][k][1] + prices[i]);
                     dp[i][k][1] = Math.max(dp[i - 1][k][1], dp[i - 1][k - 1][0] - prices[i]);
@@ -50,5 +50,11 @@ class Solution {
             }
         }
         return dp[n-1][mak_k][0];
+    }
+    public static void main(String[] args) {
+        int[] nums = {1,2,3,4,5};
+
+        Solution solution = new Solution();
+        System.out.println(solution.maxProfit(nums));
     }
 }
