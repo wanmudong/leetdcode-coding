@@ -34,5 +34,11 @@ hot100
 309. 最佳买卖股票时机含冷冻期 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 714. 买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
+区间问题
+
+1288. 删除被覆盖区间 https://leetcode-cn.com/problems/remove-covered-intervals
+986. 区间列表的交集 https://leetcode-cn.com/problems/interval-list-intersections
+56. 合并区间 https://leetcode-cn.com/problems/merge-intervals
+
 
 

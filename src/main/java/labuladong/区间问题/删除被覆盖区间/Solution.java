@@ -1,4 +1,4 @@
-package labuladong.区间问题;
+package labuladong.区间问题.删除被覆盖区间;
 
 import java.util.Arrays;
 
