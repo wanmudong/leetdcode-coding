@@ -40,5 +40,7 @@ hot100
 986. 区间列表的交集 https://leetcode-cn.com/problems/interval-list-intersections
 56. 合并区间 https://leetcode-cn.com/problems/merge-intervals
 
+nSum问题
 
+15. 三数之和 https://leetcode-cn.com/problems/3sum
 
