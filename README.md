@@ -34,5 +34,22 @@ hot100
 309. 最佳买卖股票时机含冷冻期 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 714. 买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
+区间问题
 
+1288. 删除被覆盖区间 https://leetcode-cn.com/problems/remove-covered-intervals
+986. 区间列表的交集 https://leetcode-cn.com/problems/interval-list-intersections
+56. 合并区间 https://leetcode-cn.com/problems/merge-intervals
 
+nSum问题
+
+15. 三数之和 https://leetcode-cn.com/problems/3sum
+
+二叉树第一期
+ 
+226. 翻转二叉树 https://leetcode-cn.com/problems/invert-binary-tree
+116. 填充每个节点的下一个右侧节点指针 https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node
+114. 二叉树展开为链表 https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list
+
+子集背包
+
+416. 分割等和子集 https://leetcode-cn.com/problems/partition-equal-subset-sum
