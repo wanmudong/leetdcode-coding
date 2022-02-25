@@ -17,6 +17,7 @@ leetcode 刷题记录
 - 1004.最大连续1的个数 III https://leetcode-cn.com/problems/max-consecutive-ones-iii
 - 448.找到所有数组中消失的数字 https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array
 - 888.公平的糖果棒交换 https://leetcode-cn.com/problems/fair-candy-swap
+- 567.字符串的排列 https://leetcode-cn.com/problems/permutation-in-string/
 
 
 历史 - 2022年01月24日
