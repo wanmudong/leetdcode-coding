@@ -2,9 +2,9 @@
 
 leetcode 刷题记录
 
-2022年01月24日 - 至今
+## 2022年01月24日 - 至今
 
-宫水三叶 - 经典面试题
+### 宫水三叶 - 经典面试题
 - 703.数据流中的第 K 大元素 https://leetcode-cn.com/problems/kth-largest-element-in-a-stream
 - 21.合并两个有序链表 https://leetcode-cn.com/problems/merge-two-sorted-lists
 - 24.两两交换链表中的节点 https://leetcode-cn.com/problems/swap-nodes-in-pairs
@@ -20,9 +20,9 @@ leetcode 刷题记录
 - 567.字符串的排列 https://leetcode-cn.com/problems/permutation-in-string/
 
 
-历史 - 2022年01月24日
+## 历史 - 2022年01月24日
 
-hot100
+### hot100
 
 - 62.不同路径 https://leetcode-cn.com/problems/unique-paths/
 - 17.电话号码的字母组合 https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
@@ -38,14 +38,14 @@ hot100
 - 752.打开转盘锁 https://leetcode-cn.com/problems/open-the-lock
 - 704.二分查找 https://leetcode-cn.com/problems/binary-search/
 
-滑动窗口
+### 滑动窗口
 
 - 76.最小覆盖子串 https://leetcode-cn.com/problems/minimum-window-substring/
 - 567.字符串的排列 https://leetcode-cn.com/problems/permutation-in-string/
 - 438.找到字符串中所有字母异位词 https://leetcode-cn.com/problems/find-all-anagrams-in-a-string/
 - 3.无重复字符的最长子串 https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/
 
-股票买卖问题
+### 股票买卖问题
 
 - 121.买卖股票的最佳时机 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock
 - 122.买卖股票的最佳时机 II https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
@@ -54,22 +54,22 @@ hot100
 - 309.最佳买卖股票时机含冷冻期 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/
 - 714.买卖股票的最佳时机含手续费 https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/
 
-区间问题
+### 区间问题
 
 - 1288.删除被覆盖区间 https://leetcode-cn.com/problems/remove-covered-intervals
 - 986.区间列表的交集 https://leetcode-cn.com/problems/interval-list-intersections
 - 56.合并区间 https://leetcode-cn.com/problems/merge-intervals
 
-nSum问题
+### nSum问题
 
 - 15.三数之和 https://leetcode-cn.com/problems/3sum
 
-二叉树第一期
+### 二叉树第一期
  
 - 226.翻转二叉树 https://leetcode-cn.com/problems/invert-binary-tree
 - 116.填充每个节点的下一个右侧节点指针 https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node
 - 114.二叉树展开为链表 https://leetcode-cn.com/problems/flatten-binary-tree-to-linked-list
 
-子集背包
+### 子集背包
 
 - 416.分割等和子集 https://leetcode-cn.com/problems/partition-equal-subset-sum
