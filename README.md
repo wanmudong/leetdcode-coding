@@ -18,6 +18,7 @@ leetcode 刷题记录
 - 448.找到所有数组中消失的数字 https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array
 - 888.公平的糖果棒交换 https://leetcode-cn.com/problems/fair-candy-swap
 - 567.字符串的排列 https://leetcode-cn.com/problems/permutation-in-string/
+- 跳跃游戏 
 
 
 ## 历史 - 2022年01月24日
